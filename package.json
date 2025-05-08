@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://ehinze.github.io/Birthday_Webpage",
 
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
