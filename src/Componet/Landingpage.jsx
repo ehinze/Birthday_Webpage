@@ -5,16 +5,17 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 const images = [
-  `${process.env.PUBLIC_URL}/Landingpage/photo-8.jpg`,
-  `${process.env.PUBLIC_URL}/Landingpage/photo-9.jpg`,
-  `${process.env.PUBLIC_URL}/Landingpage/photo-1.jpg`,
-  `${process.env.PUBLIC_URL}/Landingpage/photo-2.jpg`,
-  `${process.env.PUBLIC_URL}/Landingpage/photo-3.jpg`,
-  `${process.env.PUBLIC_URL}/Landingpage/photo-4.jpg`,
-  `${process.env.PUBLIC_URL}/Landingpage/photo-5.jpg`,
-  `${process.env.PUBLIC_URL}/Landingpage/photo-6.jpg`,
-  `${process.env.PUBLIC_URL}/Landingpage/photo-7.jpg`,
+  `${import.meta.env.BASE_URL}Landingpage/photo-8.jpg`,
+  `${import.meta.env.BASE_URL}Landingpage/photo-9.jpg`,
+  `${import.meta.env.BASE_URL}Landingpage/photo-1.jpg`,
+  `${import.meta.env.BASE_URL}Landingpage/photo-2.jpg`,
+  `${import.meta.env.BASE_URL}Landingpage/photo-3.jpg`,
+  `${import.meta.env.BASE_URL}Landingpage/photo-4.jpg`,
+  `${import.meta.env.BASE_URL}Landingpage/photo-5.jpg`,
+  `${import.meta.env.BASE_URL}Landingpage/photo-6.jpg`,
+  `${import.meta.env.BASE_URL}Landingpage/photo-7.jpg`,
 ];
+
 
 export default function LandingPage() {
   const settings = {

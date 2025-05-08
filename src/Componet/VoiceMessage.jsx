@@ -6,7 +6,8 @@ export default function VoiceMessage() {
         <h2 className="text-3xl font-bold mb-6">A Message From Me to You 🎧</h2>
         <p className="mb-4 text-lg">Press play and hear what I have to say…</p>
         <audio controls className="mx-auto">
-        <source src={`${process.env.PUBLIC_URL}/Video/sister.m4a`} type="audio/mpeg" />
+        <source src={import.meta.env.BASE_URL + "Video/sister.m4a"} type="audio/mp4" />
+
 
           Your browser does not support the audio element.
         </audio>

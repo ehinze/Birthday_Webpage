@@ -2,13 +2,14 @@ import React, { useState } from "react";
 
 export default function ReasonsILoveYou() {
   const reasons = [
-    { title: "Reason #1", text: "You always cover for me 🤫", meme: `${process.env.PUBLIC_URL}/Meme/cover.jpg` },
-    { title: "Reason #2", text: "You make me laugh so hard 😂", meme: `${process.env.PUBLIC_URL}/Meme/make-me-laugh.png` },
-    { title: "Reason #3", text: "You’re the queen of drama 👑", meme: `${process.env.PUBLIC_URL}/Meme/drama-queen.jpg` },
-    { title: "Reason #4", text: "You always make me happy 😂", meme: `${process.env.PUBLIC_URL}/Meme/makemyhearthappy.png` },
-    { title: "Reason #5", text: "You're a great cook 👩🏽‍🍳", meme: `${process.env.PUBLIC_URL}/Meme/cook.jpg` },
-    { title: "Reason #6", text: "You are such a smart young lady", meme: `${process.env.PUBLIC_URL}/Meme/smart.jpg` },
+    { title: "Reason #1", text: "You always cover for me 🤫", meme: `${import.meta.env.BASE_URL}Meme/cover.jpg` },
+    { title: "Reason #2", text: "You make me laugh so hard 😂", meme: `${import.meta.env.BASE_URL}Meme/make-me-laugh.png` },
+    { title: "Reason #3", text: "You’re the queen of drama 👑", meme: `${import.meta.env.BASE_URL}Meme/drama-queen.jpg` },
+    { title: "Reason #4", text: "You always make me happy 😂", meme: `${import.meta.env.BASE_URL}Meme/makemyhearthappy.png` },
+    { title: "Reason #5", text: "You're a great cook 👩🏽‍🍳", meme: `${import.meta.env.BASE_URL}Meme/cook.jpg` },
+    { title: "Reason #6", text: "You are such a smart young lady", meme: `${import.meta.env.BASE_URL}Meme/smart.jpg` },
   ];
+  
   
   const [flippedIndexes, setFlippedIndexes] = useState([]);
 
