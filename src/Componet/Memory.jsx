@@ -2,15 +2,16 @@ import React from "react";
   
   export default function MemoryLane() {
     const memories = [
-        { src: "/Memorylane/daddy.jpg", caption: "The cutest babe in town 😂" },
-        { src: "/Memorylane/img-1.jpg", caption: "Sisters for life 😭" },
-        { src: "/Memorylane/poser.jpg", caption: "Best in posing 🤣" },
-        { src: "/Memorylane/img-2.jpg", caption: "My forever shaylaa 🥺" },
-        { src: "/Memorylane/img-3.jpg", caption: "One blood 😎" },
-        { src: "/Memorylane/grad-1.jpg", caption: "F.A queen 🤣" },
-        { src: "/Memorylane/grad-3.jpg", caption: "School girl ❤️" },
-        { src: "/Memorylane/grad-2.jpg", caption: "Graduation queen 🎓" },
-      ];
+      { src: `${process.env.PUBLIC_URL}/Memorylane/daddy.jpg`, caption: "The cutest babe in town 😂" },
+      { src: `${process.env.PUBLIC_URL}/Memorylane/img-1.jpg`, caption: "Sisters for life 😭" },
+      { src: `${process.env.PUBLIC_URL}/Memorylane/poser.jpg`, caption: "Best in posing 🤣" },
+      { src: `${process.env.PUBLIC_URL}/Memorylane/img-2.jpg`, caption: "My forever shaylaa 🥺" },
+      { src: `${process.env.PUBLIC_URL}/Memorylane/img-3.jpg`, caption: "One blood 😎" },
+      { src: `${process.env.PUBLIC_URL}/Memorylane/grad-1.jpg`, caption: "F.A queen 🤣" },
+      { src: `${process.env.PUBLIC_URL}/Memorylane/grad-3.jpg`, caption: "School girl ❤️" },
+      { src: `${process.env.PUBLIC_URL}/Memorylane/grad-2.jpg`, caption: "Graduation queen 🎓" },
+    ];
+    
     return (
       <div className="bg-purple-100 py-12 px-6 text-center">
         <h2 className="text-3xl font-bold mb-8">Memory Lane 🛤️</h2>
